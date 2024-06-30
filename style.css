@@ -92,6 +92,10 @@ nav .navhead {
     font-weight: bolder;
 }
 
+.head-text span {
+    display: block;
+}
+
 .trader-text {
     font-size: 16px;
 }
@@ -741,6 +745,10 @@ footer {
     .ten-k {
         margin: 10px auto;
     }
+    .ten-y {
+        padding-top: 10px;
+        font-size: 20px;
+    }
     .basic, .standard, .mentor {
         width: 100%;
         margin: 25px 5px;
@@ -748,5 +756,14 @@ footer {
     }
     .plans {
         display: flex;
+    }
+    .nav-btn {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 901px) {
+    .head-text span {
+        display: block;
     }
 }
