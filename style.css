@@ -396,7 +396,7 @@ footer {
 
 
 
-@media (max-width: 767px) {
+@media (min-width: 575px) and (max-width: 767px) {
     
     .nav-btn {
         justify-content: center;
@@ -498,9 +498,33 @@ footer {
 
 @media (max-width: 576px) {
 
+    .first-detail {
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+    }
+    .head-text {
+        font-size: 40px;
+    }
+    .trader-text {
+        font-size: 20px;
+    }
+
     .trade-img img {
         border-radius: 30px;
-        height: 40vh;
+        height: 30vh;
+    }
+    .group-btn {
+        justify-content: center;
+    }
+    .ten-k {
+        margin: 10px auto;
+    }
+    .plans {
+        flex-direction: column;
+    }
+    .basic, .standard, .mentor {
+        width: 80%;
     }
     
 
@@ -692,4 +716,37 @@ footer {
         padding: 0%;
     }
     **/
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+    .first-detail {
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+    }
+    .head-text {
+        font-size: 40px;
+    }
+    .trader-text {
+        font-size: 20px;
+    }
+
+    .trade-img img {
+        border-radius: 30px;
+        height: 45vh;
+    }
+    .group-btn {
+        justify-content: center;
+    }
+    .ten-k {
+        margin: 10px auto;
+    }
+    .basic, .standard, .mentor {
+        width: 100%;
+        margin: 25px 5px;
+        padding: 10px;
+    }
+    .plans {
+        display: flex;
+    }
 }
